@@ -1,5 +1,8 @@
 import React from 'react';
 import ReactDom from 'react-dom';
+import GenerateRandom from './sorting/GenerateRandom';
+import BubbleSort from './sorting/BubbleSort';
+import SelectionSort from './sorting/SelectionSort';
 import{
   BrowserRouter,
   Route,
