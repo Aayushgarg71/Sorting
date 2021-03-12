@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDom from 'react-dom';
+//import ReactDom from 'react-dom';
 import GenerateRandom from './sorting/GenerateRandom';
 import BubbleSort from './sorting/BubbleSort';
 import SelectionSort from './sorting/SelectionSort';
@@ -9,7 +9,7 @@ import{
   Switch,
   Link
 } from 'react-router-dom';
-import {Progress} from 'reactstrap';
+//import {Progress} from 'reactstrap';
 class App extends React.Component{
   state={
     arr:[]
